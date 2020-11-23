@@ -4,6 +4,10 @@
   background: #31BB9D;
 }
 
+.color-white {
+  color: white;
+}
+
 h1, h2 {
   text-transform: uppercase;
 }
@@ -16,15 +20,11 @@ h1, h2 {
 }
 
 /* ----jumbotron */
-.jumbotron {
-  color: white;
-}
-
-.jumbotron .my-img-width {
+#header .my-img-width {
   width: 250px;
 }
 
-.jumbotron p {
+#header p {
   padding: 10px 0;
   font-size: 24px;
   letter-spacing: 1.9px;
@@ -33,6 +33,17 @@ h1, h2 {
 }
 
 /* ----portfolio */
-.portfolio img {
+#portfolio img {
   margin-top: 30px;
+}
+
+/* ----about */
+#about  {
+  padding: 50px;
+}
+
+#about .row {
+  /* era meglio in px? */
+  width: 70%;
+  margin: 0 auto;
 }
