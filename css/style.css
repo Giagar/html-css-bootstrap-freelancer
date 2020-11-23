@@ -8,7 +8,7 @@
   color: white;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-transform: uppercase;
 }
 
@@ -54,4 +54,44 @@ h1, h2 {
 
 #form form [for="message"] {
   margin-top: 10px;
+}
+
+#form button {
+  margin-left:;
+}
+
+/* ----social */
+#social {
+  background: #3b546c;
+}
+
+#social .social-container {
+  width: 240px;
+  margin: 0 auto;
+}
+
+#social .social-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#social .social-icon {
+  border: 1px solid lightgrey;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  line-height: 50px;
+  float: left;
+}
+
+#social i {
+  /* background: blue; */
+  padding: 10px;
+  font-size: 19px;
+}
+
+#social span {
+  color: #31BB9D;
 }
