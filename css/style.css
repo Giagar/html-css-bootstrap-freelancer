@@ -38,3 +38,20 @@ h1, h2 {
 }
 
 /* ----about */
+#form form label {
+  font-size: 24px;
+  color: #52606E;
+  font-weight: normal;
+}
+
+#form form input, #form form .message {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid lightgrey;
+  margin-top: -15px;
+}
+
+#form form [for="message"] {
+  margin-top: 10px;
+}
