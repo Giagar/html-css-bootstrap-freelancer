@@ -90,6 +90,11 @@ togliere .active
 }
 
 /* ----form */
+#form .row {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
 #form form label {
   font-size: 24px;
   color: #52606E;
@@ -107,10 +112,6 @@ togliere .active
 #form form [for="message"] {
   margin-top: 10px;
 }
-
-/* #form button {
-  margin-left:;
-} */
 
 /* ----social */
 #social {
