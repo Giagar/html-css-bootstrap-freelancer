@@ -16,6 +16,10 @@ h2 {
   font-size: 50px;
 }
 
+h3 {
+  font-weight: 400;
+}
+
 .fa-star {
   vertical-align: middle;
   line-height: 4px;
@@ -114,13 +118,18 @@ togliere .active
 }
 
 /* ----social */
-#social {
+footer {
   background: #3b546c;
+}
+
+#social {
+  padding: 50px 10px;
 }
 
 #social .social-container {
   width: 240px;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 #social .social-container::after {
@@ -140,11 +149,21 @@ togliere .active
 }
 
 #social i {
-  /* background: blue; */
   padding: 10px;
   font-size: 19px;
 }
 
-#social span {
+#social p, #social address {
+  font-size: 19px;
+}
+
+#social p span {
   color: #31BB9D;
+}
+
+/* ----copyright */
+#copyright {
+  height: 100px;
+  background: #2d3e4f;
+  line-height: 100px;
 }
