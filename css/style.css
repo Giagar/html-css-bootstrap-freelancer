@@ -80,6 +80,16 @@ togliere .active
 }
 
 /* ----about */
+#about .row {
+  margin-top: 20px;
+}
+
+#about .btn {
+  background: transparent;
+  border: 1px solid white;
+}
+
+/* ----form */
 #form form label {
   font-size: 24px;
   color: #52606E;
