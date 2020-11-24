@@ -12,12 +12,46 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
+.fa-star {
+  vertical-align: middle;
+  line-height: 4px;
+  padding: 0 20px;
+}
+
+.star-container {
+  font-size: 30px;
+}
+
+.star-container::before, .star-container::after {
+  content: "";
+  display: inline-block;
+  width: 150px;
+  height: 4px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.star-container.dark::before, .star-container.dark::after {
+  background-color: #333333;
+  color: #333333;
+}
+
+.star-container.light::before, .star-container.light::after {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
 /* ----STYLE */
 /* ----nav */
 .my-nav {
   height: 80px;
   background: #2d3e4f;
 }
+
+/*
+nav li:hover color:1abc9c;
+togliere .active
+ */
 
 /* ----jumbotron */
 #header .my-img-width {
@@ -28,7 +62,7 @@ h1, h2, h3 {
   padding: 10px 0;
   font-size: 24px;
   letter-spacing: 1.9px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -56,9 +90,9 @@ h1, h2, h3 {
   margin-top: 10px;
 }
 
-#form button {
+/* #form button {
   margin-left:;
-}
+} */
 
 /* ----social */
 #social {
