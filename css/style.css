@@ -33,7 +33,7 @@ h3 {
 .star-container::before, .star-container::after {
   content: "";
   display: inline-block;
-  width: 150px;
+  width: 15%;
   height: 4px;
   border-radius: 2px;
   vertical-align: middle;
@@ -63,12 +63,16 @@ h3 {
   font-weight: bold;
 }
 
-.my-nav a {
+.my-nav.navbar-default a {
   color: white;
   text-transform: uppercase;
 }
 
-.my-nav li a:hover {
+.my-nav.navbar-default li a {
+  color: white;
+}
+
+.my-nav.navbar-default li a:hover {
   background: transparent;
   transform: scale(1.2);
   color: #1abc9c;
