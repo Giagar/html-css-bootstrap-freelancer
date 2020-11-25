@@ -110,7 +110,7 @@ togliere .active
   box-shadow: none;
   border-radius: 0;
   border-bottom: 1px solid lightgrey;
-  margin-top: -15px;
+  margin-top: -5px;
 }
 
 #form form [for="message"] {
